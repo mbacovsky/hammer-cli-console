@@ -1,0 +1,7 @@
+# rvm
+.ruby-gemset
+.ruby-version
+.rvmrc
+
+# gems
+*.gem
