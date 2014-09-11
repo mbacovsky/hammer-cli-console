@@ -4,7 +4,7 @@ module HammerCLIConsole
 
     def execute
       Pry.config.prompt_name = "hammer"
-      HammerCLI::MainCommand.pry
+      parent_command.pry
       return HammerCLI::EX_OK
     end
 
