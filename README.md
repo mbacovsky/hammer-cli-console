@@ -1,4 +1,3 @@
-hammer-cli-console
-==================
+# hammer-cli-console
 
-REPL support for Hammer
+Debugging support for Hammer
