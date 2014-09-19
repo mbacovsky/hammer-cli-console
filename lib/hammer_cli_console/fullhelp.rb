@@ -23,7 +23,7 @@ module HammerCLIConsole
         puts subcommand_container.description
         puts subcommand.help
         puts
-        print_help_recursive name, subcommand_class
+        print_help_recursive(name, subcommand_class)
       end
     end
 

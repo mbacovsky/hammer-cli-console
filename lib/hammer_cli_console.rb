@@ -10,4 +10,8 @@ module HammerCLIConsole
                                          _("Recursive help of all hammer commands"),
                                          "HammerCLIConsole::FullHelpCommand",
                                          "hammer_cli_console/fullhelp")
+  HammerCLI::MainCommand.lazy_subcommand("command-tree",
+                                         _("Display the hammer command tree"),
+                                         "HammerCLIConsole::CommandTreeCommand",
+                                         "hammer_cli_console/commandtree")
 end
