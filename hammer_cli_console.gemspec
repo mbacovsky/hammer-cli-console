@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "hammer_cli", ">= 0.1.1"
   spec.add_dependency "pry"
+  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rubocop', '0.28.0'
 end
