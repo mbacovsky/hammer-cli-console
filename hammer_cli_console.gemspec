@@ -18,6 +18,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = %w(lib)
   spec.version = HammerCLIConsole.version
 
-  spec.add_dependency "hammer_cli", "~> 0.1.1"
+  spec.add_dependency "hammer_cli", ">= 0.1.1"
   spec.add_dependency "pry"
 end

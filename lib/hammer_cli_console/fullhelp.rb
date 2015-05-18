@@ -1,7 +1,5 @@
 module HammerCLIConsole
-
   class FullHelpCommand < HammerCLI::AbstractCommand
-
     def execute
       puts HammerCLI::MainCommand.new('', {}).help
       puts
@@ -26,7 +24,5 @@ module HammerCLIConsole
         print_help_recursive(name, subcommand_class)
       end
     end
-
   end
-
 end
